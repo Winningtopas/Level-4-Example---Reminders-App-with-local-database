@@ -1,7 +1,9 @@
 package com.example.level2example
 
 import android.content.Context
-import com.example.level2example.ReminderRoomDatabase.ReminderRoomDatabase //haal dit weg als het stuk is
+
+//import com.example.level2example.ReminderRoomDatabase.ReminderRoomDatabase //haal dit weg als het stuk is
+
 
 
 public class ReminderRepository(context: Context) {
