@@ -24,7 +24,6 @@ import androidx.room.RoomDatabase
                                     context.applicationContext,
                                     ReminderRoomDatabase::class.java, DATABASE_NAME
                                 )
-                                .allowMainThreadQueries()
                                 .build()
                         }
                     }
